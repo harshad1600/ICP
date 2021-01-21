@@ -49,11 +49,9 @@ Target scan:
 
 Resultant Transformation Matrix:
 
-`M :   [[ 0.99943548  0.03359631  1.01173327]
-
- 	[[-0.03359631  0.99943548  0.03959641]
-
- 	[[ 0.          0.          1.        ]]`
+`M :    [ 0.99943548  0.03359631  1.01173327]
+	[-0.03359631  0.99943548  0.03959641]
+	[ 0.          0.          1.        ]`
 
 Note - The matrix is represented for homogeneous coordinates.
 
@@ -70,7 +68,8 @@ Iterations :
 ![](src/images/icpplotprime_t3.png)
 ![](src/images/icpplotprime_t4.png)
 ![](src/images/icpplotprime_t5.png)
-![](src/images/icpplotprime_r13_new.png =100x20)
+![](src/images/icpplotprime_r13_new.png){:height="50%" width="50%"}
+
 > Blockquote
 
 
