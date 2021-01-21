@@ -68,7 +68,7 @@ Iterations :
 ![](src/images/icpplotprime_t3.png)
 ![](src/images/icpplotprime_t4.png)
 ![](src/images/icpplotprime_t5.png)
-<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r13.png" width="48">
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r13.png" >
 
 > Blockquote
 
