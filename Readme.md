@@ -49,11 +49,11 @@ Target scan:
 
 Resultant Transformation Matrix:
 
-`M : [[ 0.99943548  0.03359631  1.01173327]
+`M :   [[ 0.99943548  0.03359631  1.01173327]
 
- 	[-0.03359631  0.99943548  0.03959641]
+ 	[[-0.03359631  0.99943548  0.03959641]
 
- 	[ 0.          0.          1.        ]]`
+ 	[[ 0.          0.          1.        ]]`
 
 Note - The matrix is represented for homogeneous coordinates.
 
