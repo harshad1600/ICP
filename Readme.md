@@ -56,7 +56,9 @@ Resultant Transformation Matrix:
 Note - The matrix is represented for homogeneous coordinates.
 
 Translation in x ![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{x}&space;=&space;1.011)
+
 Translation in y ![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{y}&space;=&space;0.039)
+
 Rotation about z-axis ![equations](https://latex.codecogs.com/svg.latex?\large&space;\Theta&space;=&space;\sin&space;^{-1}\left&space;(&space;-0.033&space;\right&space;)&space;=&space;-1.89^{\circ})
 
 Iterations :
@@ -67,7 +69,7 @@ Iterations :
 ![](src/images/icpplotprime_t4.png)
 ![](src/images/icpplotprime_t5.png)
 
-
+> Blockquote
 
 
 
