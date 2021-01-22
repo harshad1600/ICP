@@ -15,7 +15,7 @@ The source point cloud and target point cloud are represented as ![equations](ht
 - step 2 : Compute the spread matrix
 
     ![equations](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20W_%7Bss%27%7D%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bj%3D1%7D%5E%7Bn%7D%5Cleft%20%28%20p_%7Bs%7D%5E%7B%28j%29%7D%20-%20%5Cmu%20_s%20%5Cright%20%29%5Cleft%20%28%20p_%7Bs%27%7D%5E%7B%28j%29%7D%20-%20%5Cmu%20_%7Bs%27%7D%20%5Cright%20%29%5E%7BT%7D)
-    
+
 - step 3 : Use SVD to obtain optimal rotation matrix
 
     ![equations](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20USV%5ET%20%3D%20W_%7Bss%27%7D)
@@ -47,19 +47,19 @@ Target scan:
 
 Resultant Transformation Matrix:
 
-`M :  \[[ 0.99943548  0.03359631  1.01173327]
+M :    [[ 0.99943548  0.03359631  1.01173327]
 	
 	[-0.03359631  0.99943548  0.03959641]
 	
-	[ 0.          0.          1.        ]]`
+	[ 0.          0.          1.        ]]
 
 Note - The matrix is represented for homogeneous coordinates.
 
-Translation in x             ![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{x}&space;=&space;1.011)
+Translation in x &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{x}&space;=&space;1.011)
 
-Translation in y             ![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{y}&space;=&space;0.039)
+Translation in y &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{y}&space;=&space;0.039)
 
-Rotation about z-axis        ![equations](https://latex.codecogs.com/svg.latex?\large&space;\Theta&space;=&space;\sin&space;^{-1}\left&space;(&space;-0.033&space;\right&space;)&space;=&space;-1.89^{\circ})
+Rotation about z-axis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![equations](https://latex.codecogs.com/svg.latex?\large&space;\Theta&space;=&space;\sin&space;^{-1}\left&space;(&space;-0.033&space;\right&space;)&space;=&space;-1.89^{\circ})
 
 
 **Iterations :**
