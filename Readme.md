@@ -54,16 +54,16 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 	[-0.03359631  0.99943548  0.03959641]
 	
 	[ 0.          0.          1.        ]]
-</pre>
+
 
 Note - The matrix is represented for homogeneous coordinates.
 
-Translation in x &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{x}&space;=&space;1.011)
+Translation in x      ![equations](https://latex.codecogs.com/svg.latex?\normal&space;t_{x}&space;=&space;1.011)
 
-Translation in y &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{y}&space;=&space;0.039)
+Translation in y      ![equations](https://latex.codecogs.com/svg.latex?\normal&space;t_{y}&space;=&space;0.039)
 
-Rotation about z-axis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![equations](https://latex.codecogs.com/svg.latex?\large&space;\Theta&space;=&space;\sin&space;^{-1}\left&space;(&space;-0.033&space;\right&space;)&space;=&space;-1.89^{\circ})
-
+Rotation about z-axis ![equations](https://latex.codecogs.com/svg.latex?\normal&space;\Theta&space;=&space;\sin&space;^{-1}\left&space;(&space;-0.033&space;\right&space;)&space;=&space;-1.89^{\circ})
+</pre>
 
 **Iterations :**
 
