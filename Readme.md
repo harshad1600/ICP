@@ -55,6 +55,7 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 	
 	[ 0.          0.          1.        ]]
 
+</pre>
 
 Note - The matrix is represented for homogeneous coordinates.
 
@@ -63,7 +64,7 @@ Translation in x      ![equations](https://latex.codecogs.com/svg.latex?\normal&
 Translation in y      ![equations](https://latex.codecogs.com/svg.latex?\normal&space;t_{y}&space;=&space;0.039)
 
 Rotation about z-axis ![equations](https://latex.codecogs.com/svg.latex?\normal&space;\Theta&space;=&space;\sin&space;^{-1}\left&space;(&space;-0.033&space;\right&space;)&space;=&space;-1.89^{\circ})
-</pre>
+
 
 **Iterations :**
 
