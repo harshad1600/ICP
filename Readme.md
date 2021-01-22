@@ -47,11 +47,14 @@ Target scan:
 
 Resultant Transformation Matrix:
 
+<pre>
+
 M :    [[ 0.99943548  0.03359631  1.01173327]
 	
 	[-0.03359631  0.99943548  0.03959641]
 	
 	[ 0.          0.          1.        ]]
+</pre>
 
 Note - The matrix is represented for homogeneous coordinates.
 
