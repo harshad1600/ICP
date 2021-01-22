@@ -59,11 +59,11 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 
 Note - The matrix is represented for homogeneous coordinates.
 
-![equations](https://latex.codecogs.com/svg.latex?\large&space;Translation\:\:&space;in\:\:&space;x\:&space;\left&space;(&space;t_{x}&space;\right&space;)=1.011)
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:x\:\:\left&space;(&space;t_{x}&space;\right&space;)=1.011\:m" title="\large Translation\:in\:x\:\:\left ( t_{x} \right )=1.011\:m" />
 
-![equations](https://latex.codecogs.com/svg.latex?\large&space;Translation\:\:&space;in\:\:&space;y\:&space;\left&space;(&space;t_{y}&space;\right&space;)=0.039)
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:y\:\:\left&space;(&space;t_{y}&space;\right&space;)=0.039\:m" title="\large Translation\:in\:y\:\:\left ( t_{y} \right )=0.039\:m" />
 
-![equations](https://latex.codecogs.com/svg.latex?\large&space;Rotation\:\:&space;about\:\:&space;z\:&space;\left&space;(&space;\theta&space;\right&space;)=1.89^{\circ})
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Rotation\:\:&space;about\:\:&space;z\:&space;\left&space;(&space;\theta&space;\right&space;)=1.89^{\circ}" title="\large Rotation\:\: about\:\: z\: \left ( \theta \right )=1.89^{\circ}" />
 
 
 **Iterations :**
