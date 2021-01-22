@@ -34,6 +34,8 @@ Repeat until convergence.
 
 The implementation was done in Gazebo simulator(Version 7.0). A hokuyo laser scanner was mounted on top of turtlebot2. Point clouds were recorded in the following environment : 
 
+
+
 Test 1 :
 
 **Translational motion of 1m along positive x-axis**
@@ -45,26 +47,31 @@ Target scan:
 
 Resultant Transformation Matrix:
 
-`M :    [ 0.99943548  0.03359631  1.01173327]
+`M :  \[[ 0.99943548  0.03359631  1.01173327]
+	
 	[-0.03359631  0.99943548  0.03959641]
-	[ 0.          0.          1.        ]`
+	
+	[ 0.          0.          1.        ]]`
 
 Note - The matrix is represented for homogeneous coordinates.
 
-Translation in x ![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{x}&space;=&space;1.011)
+Translation in x             ![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{x}&space;=&space;1.011)
 
-Translation in y ![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{y}&space;=&space;0.039)
+Translation in y             ![equations](https://latex.codecogs.com/svg.latex?\large&space;t_{y}&space;=&space;0.039)
 
-Rotation about z-axis ![equations](https://latex.codecogs.com/svg.latex?\large&space;\Theta&space;=&space;\sin&space;^{-1}\left&space;(&space;-0.033&space;\right&space;)&space;=&space;-1.89^{\circ})
+Rotation about z-axis        ![equations](https://latex.codecogs.com/svg.latex?\large&space;\Theta&space;=&space;\sin&space;^{-1}\left&space;(&space;-0.033&space;\right&space;)&space;=&space;-1.89^{\circ})
 
-Iterations :
 
-![](src/images/icpplotprime_t1.png)
-![](src/images/icpplotprime_t2.png)
-![](src/images/icpplotprime_t3.png)
-![](src/images/icpplotprime_t4.png)
-![](src/images/icpplotprime_t5.png)
-<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r13.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r13.png" height="320" width="400">
+**Iterations :**
+
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t1.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t2.png" height="320" width="400">
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t3.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t4.png" height="320" width="400">
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t5.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t6.png" height="320" width="400">
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t7.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t8.png" height="320" width="400">
 
 > Blockquote
 
