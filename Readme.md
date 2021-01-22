@@ -59,11 +59,11 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 
 Note - The matrix is represented for homogeneous coordinates.
 
-Translation in x      ![equations](https://latex.codecogs.com/svg.latex?\normal&space;t_{x}&space;=&space;1.011)
+![equations](https://latex.codecogs.com/svg.latex?\large&space;Translation\:\:&space;in\:\:&space;x\:&space;\left&space;(&space;t_{x}&space;\right&space;)=1.011)
 
-Translation in y      ![equations](https://latex.codecogs.com/svg.latex?\normal&space;t_{y}&space;=&space;0.039)
+![equations](https://latex.codecogs.com/svg.latex?\large&space;Translation\:\:&space;in\:\:&space;y\:&space;\left&space;(&space;t_{y}&space;\right&space;)=0.039)
 
-Rotation about z-axis ![equations](https://latex.codecogs.com/svg.latex?\normal&space;\Theta&space;=&space;\sin&space;^{-1}\left&space;(&space;-0.033&space;\right&space;)&space;=&space;-1.89^{\circ})
+![equations](https://latex.codecogs.com/svg.latex?\large&space;Rotation\:\:&space;about\:\:&space;z\:&space;\left&space;(&space;\theta&space;\right&space;)=1.89^{\circ})
 
 
 **Iterations :**
