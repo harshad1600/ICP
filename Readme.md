@@ -4,7 +4,7 @@ The Iterative closest point algorithm is employed to estimate transformation bet
 
 ## Closed form solution
 
-The source point cloud and target point cloud are represented as ![equations](https://latex.codecogs.com/svg.latex?\dpi{120}&space;\bg_white&space;\large&space;p_{s}) and ![equations](https://latex.codecogs.com/svg.latex?\dpi{120}&space;\bg_white&space;\large&space;p_{s^{'}}) respectively. For data association between these two sets, brute force search methods has been used. In case when multiple source points are matched with same point from the target set, the pair with minumum distance is retained while others are rejected. Morever, unmatched target points are also removed,which consequently leaves us with best one to one correspondences. Following steps are performed on the resultant point sets to solve for optimal translation and rotation.
+The target point cloud and source point cloud are represented as ![equations](https://latex.codecogs.com/svg.latex?\dpi{120}&space;\bg_white&space;\large&space;p_{s}) and ![equations](https://latex.codecogs.com/svg.latex?\dpi{120}&space;\bg_white&space;\large&space;p_{s^{'}}) respectively. For data association between these two sets, brute force search methods has been used. In case when multiple source points are matched with same point from the target set, the pair with minumum distance is retained while others are rejected. Morever, unmatched target points are also removed,which consequently leaves us with best one to one correspondences. Following steps are performed on the resultant point sets to solve for optimal translation and rotation.
 
 - step 1 : Calculate centroids of both point clouds
     
@@ -32,7 +32,7 @@ Repeat until convergence.
 
 # TESTS
 
-The implementation was done in Gazebo simulator(Version 7.0). A hokuyo laser scanner was mounted on top of turtlebot2. Point clouds were recorded in lidar's frame of reference, at two different time instances.The algorithm was used to estimate the transformation between the two different lidar frames of reference, in the global frame of reference.In this way, motion of lidar and conseqeuntly, motion of the turtlebot was evaluated between any two steps of time.
+The implementation was done in Gazebo simulator(Version 7.0). A hokuyo laser scanner was mounted on top of Turtlebot2. Point clouds were recorded in lidar's frame of reference, at two different time instances.The point cloud recorded first is referred as target set while the current one is referred as source set.The ICP algorithm was used to estimate the transformation between these sets, in the target's frame of reference. In this way, motion of lidar and consequently, motion of the turtlebot was evaluated between two known steps of time.
 
 
 
@@ -41,11 +41,11 @@ The implementation was done in Gazebo simulator(Version 7.0). A hokuyo laser sca
 **Test 1 : Translational motion of 1m along positive x-axis**
 
 
-Source scan:
+Target scan:
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/zero_position.png" height="400" width="500"> 
 
-Target scan:
+Source scan:
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/translation.png" height="400" width="500">
 
@@ -66,7 +66,7 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:y\:\:\left&space;(&space;t_{y}&space;\right&space;)=0.039\:m" title="\large Translation\:in\:y\:\:\left ( t_{y} \right )=0.039\:m" />
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Rotation\:\:&space;about\:\:&space;z\:&space;\left&space;(&space;\theta&space;\right&space;)=1.89^{\circ}" title="\large Rotation\:\: about\:\: z\: \left ( \theta \right )=1.89^{\circ}" />
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Rotation\:\:&space;about\:\:&space;z\:&space;\left&space;(&space;\theta&space;\right&space;)=-1.89^{\circ}" title="\large Rotation\:\: about\:\: z\: \left ( \theta \right )=-1.89^{\circ}" />
 
 
 **Iterations :**
@@ -82,11 +82,11 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 
 **Test 2 : Rotational motion along positive z-axis**
 
-Source scan:
+Target scan:
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/zero_position.png" height="400" width="500"> 
 
-Target scan:
+Source scan:
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/rotation.png" height="400" width="500"> 
 
@@ -106,7 +106,7 @@ M :    [[0.97110935 -0.23863495  -0.08952401]
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:y\:\:\left&space;(&space;t_{y}&space;\right&space;)=-0.028\:m" title="\large Translation\:in\:y\:\:\left ( t_{y} \right )=-0.028\:m" />
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Rotation\:\:&space;about\:\:&space;z\:&space;\left&space;(&space;\theta&space;\right&space;)=1.89^{\circ}" title="\large Rotation\:\: about\:\: z\: \left ( \theta \right )=13.8^{\circ}" />
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Rotation\:\:&space;about\:\:&space;z\:&space;\left&space;(&space;\theta&space;\right&space;)=13.8^{\circ}" title="\large Rotation\:\: about\:\: z\: \left ( \theta \right )=13.8^{\circ}" />
 
 **Iterations :**
 
@@ -122,7 +122,8 @@ M :    [[0.97110935 -0.23863495  -0.08952401]
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r11.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r12.png" height="320" width="400">
 
-> Blockquote
+> Reference
+> State estimation and localization for self-driving cars - by University of Torronto (Coursera)
 
 
 
