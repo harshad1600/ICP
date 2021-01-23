@@ -62,7 +62,7 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 </pre>
 
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:x\:\:\left&space;(&space;t_{x}&space;\right&space;)=1.011\:m" title="\large Translation\:in\:x\:\:\left ( t_{x} \right )=1.011\:m" />
+![equation](https://latex.codecogs.com/svg.latex?%5Clarge%20Translation%5C%3Ain%5C%3Ax%5C%3A%5C%3A%5Cleft%28t_%7Bx%7D%20%5Cright%20%29%3D1.011%5C%3Am)
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:y\:\:\left&space;(&space;t_{y}&space;\right&space;)=0.039\:m" title="\large Translation\:in\:y\:\:\left ( t_{y} \right )=0.039\:m" />
 
