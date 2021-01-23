@@ -32,18 +32,20 @@ Repeat until convergence.
 
 # TESTS
 
-The implementation was done in Gazebo simulator(Version 7.0). A hokuyo laser scanner was mounted on top of turtlebot2. Point clouds were recorded in the following environment : 
+The implementation was done in Gazebo simulator(Version 7.0). A hokuyo laser scanner was mounted on top of turtlebot2. Point clouds were recorded in lidar's frame of reference, at two different time instances.The algorithm was used to estimate the transformation between the two different lidar frames of reference, in the global frame of reference.In this way, motion of lidar and conseqeuntly, motion of the turtlebot was evaluated between any two steps of time.
 
 
 
-Test 1 :
-
-**Translational motion of 1m along positive x-axis**
-
-Source scan:
 
 
-Target scan:
+**Test 1 : Translational motion of 1m along positive x-axis**
+
+<pre>
+Source scan:                             Target scan:
+</pre>
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/zero_position.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/translation.png" height="320" width="400">
+
 
 Resultant Transformation Matrix:
 
@@ -76,6 +78,44 @@ Note - The matrix is represented for homogeneous coordinates.
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t5.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t6.png" height="320" width="400">
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t7.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_t8.png" height="320" width="400">
+
+**Test 2 : Rotational motion along positive z-axis**
+
+Source scan:
+
+Target scan:
+
+Resultant Transformation Matrix:
+
+<pre>
+
+M :    [[0.97110935 -0.23863495  -0.08952401]
+	
+	[0.23863495  0.97110935  -0.02823182]
+	
+	[ 0.          0.          1.        ]]
+
+</pre>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:x\:\:\left&space;(&space;t_{x}&space;\right&space;)=-0.089\:m" title="\large Translation\:in\:x\:\:\left ( t_{x} \right )=-0.089\:m" />
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:y\:\:\left&space;(&space;t_{y}&space;\right&space;)=-0.028\:m" title="\large Translation\:in\:y\:\:\left ( t_{y} \right )=-0.028\:m" />
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Rotation\:\:&space;about\:\:&space;z\:&space;\left&space;(&space;\theta&space;\right&space;)=1.89^{\circ}" title="\large Rotation\:\: about\:\: z\: \left ( \theta \right )=13.8^{\circ}" />
+
+**Iterations :**
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r1.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r2.png" height="320" width="400">
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r3.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r4.png" height="320" width="400">
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r5.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r6.png" height="320" width="400">
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r7.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r8.png" height="320" width="400">
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r9.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r10.png" height="320" width="400">
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r11.png" height="320" width="400"> <img src="https://github.com/harshad1600/ICP/blob/master/src/images/icpplotprime_r12.png" height="320" width="400">
 
 > Blockquote
 
