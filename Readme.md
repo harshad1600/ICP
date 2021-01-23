@@ -59,7 +59,6 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 	[-0.03359631  0.99943548  0.03959641]
 	
 	[ 0.          0.          1.        ]]
-
 </pre>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:x\:\:\left&space;(&space;t_{x}&space;\right&space;)=1.011\:m" title="\large Translation\:in\:x\:\:\left ( t_{x} \right )=1.011\:m" />
@@ -84,7 +83,11 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 
 Source scan:
 
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/zero_position.png" height="400" width="500"> 
+
 Target scan:
+
+<img src="https://github.com/harshad1600/ICP/blob/master/src/images/rotation.png" height="400" width="500"> 
 
 Resultant Transformation Matrix:
 
