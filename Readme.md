@@ -14,7 +14,7 @@ The source point cloud and target point cloud are represented as ![equations](ht
     
 - step 2 : Compute the spread matrix
 
-    ![equations](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20W_%7Bss%27%7D%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bj%3D1%7D%5E%7Bn%7D%5Cleft%20%28%20p_%7Bs%7D%5E%7B%28j%29%7D%20-%20%5Cmu%20_s%20%5Cright%20%29%5Cleft%20%28%20p_%7Bs%27%7D%5E%7B%28j%29%7D%20-%20%5Cmu%20_%7Bs%27%7D%20%5Cright%20%29%5E%7BT%7D)
+    <img src="https://latex.codecogs.com/svg.latex?\large&space;W_{ss^{'}}=\frac{1}{n}\sum_{j=1}^{n}\left&space;(&space;p_{s}^{\left&space;(j&space;\right&space;)}-&space;\mu&space;_{s}\right&space;)\left&space;(&space;p_{s^{'}}^{\left&space;(j&space;\right&space;)}-&space;\mu&space;_{s^{'}}\right&space;)^{T}" title="\large W_{ss^{'}}=\frac{1}{n}\sum_{j=1}^{n}\left ( p_{s}^{\left (j \right )}- \mu _{s}\right )\left ( p_{s^{'}}^{\left (j \right )}- \mu _{s^{'}}\right )^{T}" />
 
 - step 3 : Use SVD to obtain optimal rotation matrix
 
@@ -62,7 +62,7 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 </pre>
 
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:x\:\:\left&space;(&space;t_{x}&space;\right&space;)=0.039\:m" title="\large Translation\:in\:x\:\:\left ( t_{x} \right )=0.039\:m" />
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:x\:\:\left&space;(&space;t_{x}&space;\right&space;)=1.011\:m" title="\large Translation\:in\:x\:\:\left ( t_{x} \right )=1.011\:m" />
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Translation\:in\:y\:\:\left&space;(&space;t_{y}&space;\right&space;)=0.039\:m" title="\large Translation\:in\:y\:\:\left ( t_{y} \right )=0.039\:m" />
 
