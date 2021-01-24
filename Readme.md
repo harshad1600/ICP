@@ -41,11 +41,11 @@ The implementation was done in Gazebo simulator(Version 7.0). A hokuyo laser sca
 **Test 1 : Translational motion of 1m along positive x-axis**
 
 
-[Target scan:](https://github.com/harshad1600/ICP/blob/master/src/data_points/Translation.txt)
+[Target scan:](https://github.com/harshad1600/ICP/blob/master/src/data_points/translation)
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/zero_position.png" height="400" width="500"> 
 
-Source scan:
+[Source scan:](https://github.com/harshad1600/ICP/blob/master/src/data_points/translation)
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/translation.png" height="400" width="500">
 
@@ -82,11 +82,11 @@ M :    [[ 0.99943548  0.03359631  1.01173327]
 
 **Test 2 : Rotational motion along positive z-axis**
 
-Target scan:
+[Target scan:](https://github.com/harshad1600/ICP/blob/master/src/data_points/rotation)
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/zero_position.png" height="400" width="500"> 
 
-Source scan:
+[Source scan:](https://github.com/harshad1600/ICP/blob/master/src/data_points/rotation)
 
 <img src="https://github.com/harshad1600/ICP/blob/master/src/images/rotation.png" height="400" width="500"> 
 
