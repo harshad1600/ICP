@@ -8,9 +8,10 @@ The target point cloud and source point cloud are represented as ![equations](ht
 
 - step 1 : Calculate centroids of both point clouds
     
-    ![equations](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5Cmu%20_s%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bj%3D1%7D%5E%7Bn%7D%20p_%7Bs%7D%5E%7B%28j%29%7D)
+    [Target scan:](https://github.com/harshad1600/ICP/blob/master/src/data_points/img_1.png)
 
-    ![equations](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20%5Cmu%20_%7Bs%27%7D%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bj%3D1%7D%5E%7Bn%7D%20p_%7Bs%27%7D%5E%7B%28j%29%7D)
+    [Target scan:](https://github.com/harshad1600/ICP/blob/master/src/data_points/img_2.png)
+    
     
 - step 2 : Compute the spread matrix
 
