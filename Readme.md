@@ -9,24 +9,18 @@ The target point cloud and source point cloud are represented as ![equations](ht
 - step 1 : Calculate centroids of both point clouds
     
     ![](src/images/img_1.PNG)
-
-    ![](src/images/img_2.PNG)
-    
     
 - step 2 : Compute the spread matrix
 
-    <img src="https://latex.codecogs.com/svg.latex?\large&space;W_{ss^{'}}=\frac{1}{n}\sum_{j=1}^{n}\left&space;(&space;p_{s}^{\left&space;(j&space;\right&space;)}-&space;\mu&space;_{s}\right&space;)\left&space;(&space;p_{s^{'}}^{\left&space;(j&space;\right&space;)}-&space;\mu&space;_{s^{'}}\right&space;)^{T}" title="\large W_{ss^{'}}=\frac{1}{n}\sum_{j=1}^{n}\left ( p_{s}^{\left (j \right )}- \mu _{s}\right )\left ( p_{s^{'}}^{\left (j \right )}- \mu _{s^{'}}\right )^{T}" />
+    ![](src/images/img_2.PNG)
 
 - step 3 : Use SVD to obtain optimal rotation matrix
 
-    ![equations](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20USV%5ET%20%3D%20W_%7Bss%27%7D)
+    ![](src/images/img_3.PNG)
 
-    ![equations](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20C_%7Bs%27s%7D%20%3D%20UV%5ET)
-    
-    
 - step 4 : Obtain translation vector by applying the transform on centroids
 
-    ![equations](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Clarge%20r%5E%7Bs%27s%7D_%7Bs%7D%20%3D%20%5Cmu%20_s%20-%20C%5E%7BT%7D_%7Bs%27s%7D%5Cmu%20_%7Bs%27%7D)
+    ![](src/images/img_4.PNG)
 
 Repeat until convergence.
 
