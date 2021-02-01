@@ -8,9 +8,9 @@ The target point cloud and source point cloud are represented as ![equations](ht
 
 - step 1 : Calculate centroids of both point clouds
     
-    [Target scan:](https://github.com/harshad1600/ICP/blob/master/src/data_points/img_1.png)
+    ![](src/images/img_1.png)
 
-    [Target scan:](https://github.com/harshad1600/ICP/blob/master/src/data_points/img_2.png)
+    ![](src/images/img_2.png)
     
     
 - step 2 : Compute the spread matrix
